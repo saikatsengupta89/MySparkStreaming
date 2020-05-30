@@ -37,3 +37,10 @@ object twitterDStream {
                                 
   }
 }
+
+/**************************** TWITTER KEYS **************************************/
+//API key: eazIPcImapoIi8B7VOKjp6O7b
+//API secret key: JPsaCzO90YoFUMcIgQF2W5s032cFaJnUFJM4fgqBA7x6vhYxmy
+//Access token : 760176198966280192-Tn7QfNkBHzWPVWzaB10TLab3IK8cAUw
+//Access token secret : sW90lbSSlV5iDbFp16aZT9XCkwWjtSCeiE0RnMlN1tgwo
+/*********************************************************************************/
