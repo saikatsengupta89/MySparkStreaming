@@ -40,8 +40,8 @@ object sparkTumblingWindow {
                                               window(timeColumn=col(colName="invoice_ts").alias("Invoice Time"), windowDuration="1 hours", 
                                                      slideDuration="15 minutes"),
                                               col(colName="country").alias("Country Name")
-                                           ).agg (sum(col(colName="unit_price")).alias("Total Sales"))
-                                            .orderBy("window")
+                                             ).agg (sum(col(colName="unit_price")).alias("Total Sales"))
+                                              .orderBy("window")
                                           
         val sink = tumblingWindowAgg.writeStream
                                     .format(source="console")
